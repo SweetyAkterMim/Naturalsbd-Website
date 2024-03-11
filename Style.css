@@ -1,0 +1,270 @@
+nav {
+    height: 100px;
+    width: 1450px;
+    background-color: green;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    margin-top: -82px;
+    padding: 31px;
+    color: #ffffff;
+}
+.menu {
+    margin-left: -20px;
+}
+.logo img{
+margin-left: 100px;
+margin-top: 30px;
+height: 40px;
+width: 150px;
+}
+.ul{
+    margin-left: 250px;
+}
+
+.srcBar {
+    margin-top: -67px;
+    margin-left: 800px;
+    height: 50px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.search-bar {
+        border: 0px solid #ffffff;
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 35px;
+        font-size: 14px;
+}
+
+#btn {
+    background-color:green;
+    padding: 10px;
+    margin-top: -10px;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+#btn:hover {
+    background-color: #ffffff;
+    color: green;
+    border: 1px solid green ;
+}
+.sf{
+    margin-left: 400px;
+    font-size: 30px;
+    color: #ffffff;
+   
+}
+.cart{
+    margin-top: -35px;
+    margin-left: 750px;
+    display: flex;
+}
+
+.sp{
+    background-color: red;
+    border-radius: 50px;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 4px;
+    
+}
+.c-wr{
+    color: #ffffff;
+    margin-top: -50px;
+    margin-left: 1210px;
+}
+
+.shop{
+    margin-left: 600px;
+}
+.box-1 img{
+   margin-left:30px; 
+
+}
+
+
+.box-1 p{
+    margin-left: 13px;
+    font-size:14px;
+}
+
+.shop-box a{
+    text-decoration: none;
+    color: black;
+}
+.shop-box a :hover{
+    
+    color: rgb(19, 176, 11);
+}
+.one-box:hover{
+    border: solid 2px green;
+}
+.shop-box{
+    /* display: grid;
+    grid-template-columns: auto auto auto auto; */
+    display: flex;
+    margin-left: 80px;
+    padding:7px;
+    gap:.40cm;
+    margin-top: 80px;
+}
+.box-11{
+    margin-left: 13px;
+    font-size:14px;
+}
+.one-box{
+    height: 440px;
+    width: 250px;
+    border: solid 1px rgb(190, 186, 186);
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+.one-box p{
+    padding-left: 5px;
+    
+   
+}
+
+.one-box h5{
+    padding-left: 5px;
+    font-size: 14px;
+    margin-top:-17px;
+    color: rgb(144, 145, 145);
+}
+.star{
+    margin-left: 100px;
+    font-size: 14px;
+    
+}
+.chart{
+    height: 35px;
+    width: 130px;
+    border:solid 1px  rgb(62, 61, 61);
+    padding-top:5px;
+    margin-left:5px;
+    margin-top:36px;
+    border-radius: 5px;
+    padding-left:15px;
+}
+.eye{
+    height: 35px;
+    width:30px;
+    border:solid 1px  rgb(62, 61, 61);
+    margin-left: 115px;
+    border-radius:5px;
+    padding-left: 20px;
+    margin-top:-30px;
+    padding-left:6px;
+    padding-top:5px;
+    font-size: medium;
+}
+.eye:hover {
+    background-color: rgb(33, 216, 33);
+}
+.total-1-11{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1cm;
+    margin: 10px;
+    margin-left: 95px;
+    margin-top: 50px;
+}
+.fiv-six{
+    display: flex;
+    gap: 1cm;
+    margin: 10px;
+    margin-left: 95px;
+    margin-top: 50px;
+
+}
+
+
+@media(max-width:700px){
+	.shop-box{
+	display:block;
+}
+}
+@media(max-width:700px){
+	.total-1-11{
+	display:block;
+}
+}
+.footer {
+    background-color: #026873;
+    height: 1100px;
+    width: 100%;
+    margin-left: 100px;
+}
+.ft-ul li{
+    float: left;
+    list-style: none;
+    margin: 5px;
+    margin-top: 60px;
+    color: aliceblue;
+    font-size: 15px;
+}
+.ft-ul {
+    margin-left: 60px;
+}
+.ft-fstimg img{
+    margin-top: 70px;
+    margin-left: -65px;
+}
+.ft-location {
+    margin-left: 700px;
+}
+.ft-pra p {
+    text-align: center;
+    color: aliceblue;
+}
+.ft-pra {
+    margin-left: 50px;
+}
+.las {
+    margin-left: 20px;
+}
+.ft-call img{
+    margin-left: 685px;
+}
+.ft-call p {
+    text-align: center;
+    color: aliceblue;
+    margin-left: 50px;
+}
+.social-icon img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+.social-icon {
+    margin-left: 620px;
+}
+.ft-fstimg2 img {
+    margin-left: 550px;
+}
+.ft-play img {
+    width: 250px;
+}
+.ft-play p {
+    color: #03A64A;
+    font-size: 25px;
+}
+.ft-play {
+    margin-left: 600px;
+}
+.ft-payment img{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.ft-copy p {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
